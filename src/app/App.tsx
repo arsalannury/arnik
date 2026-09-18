@@ -929,10 +929,10 @@ export default function App() {
           style={{ borderColor: "rgba(255,255,255,0.07)" }}
         >
           <div className="max-w-7xl mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-8">
               {/* Brand */}
-              <div className="md:col-span-2">
-                <div className="flex items-center gap-2.5 mb-4">
+              <div className="md:col-span-12">
+                {/* <div className="flex items-center gap-2.5 mb-4">
                   <div className="btn-primary w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0">
                     <span>
                       <Zap size={15} className="text-white" />
@@ -942,37 +942,18 @@ export default function App() {
                     className="font-display text-white font-semibold tracking-wider"
                     style={{ fontSize: "0.8rem", letterSpacing: "0.15em" }}
                   >
-                    AXIOM
+                    اَرنیک
                   </span>
-                </div>
-                <p className="text-white/35 text-sm leading-relaxed max-w-xs">
+                </div> */}
+                {/* <p className="text-white/35 text-sm leading-relaxed max-w-xs">
                   Premium creative studio helping ambitious brands grow through
                   strategy, design, and AI-powered execution.
-                </p>
+                </p> */}
                 {/* Socials */}
-                <div className="flex items-center gap-4 mt-6">
-                  {[
-                    { Icon: Instagram, label: "Instagram" },
-                    { Icon: Globe, label: "Website" },
-                    { Icon: Link2, label: "LinkedIn" },
-                  ].map(({ Icon, label }) => (
-                    <button
-                      key={label}
-                      aria-label={label}
-                      className="w-9 h-9 rounded-full flex items-center justify-center text-white/40 hover:text-white transition-all duration-200"
-                      style={{
-                        background: "rgba(255,255,255,0.05)",
-                        border: "1px solid rgba(255,255,255,0.08)",
-                      }}
-                    >
-                      <Icon size={14} />
-                    </button>
-                  ))}
-                </div>
               </div>
 
               {/* Services */}
-              <div>
+              {/* <div>
                 <h4
                   className="text-white/50 uppercase tracking-widest font-medium mb-5"
                   style={{ fontSize: "0.6rem" }}
@@ -997,10 +978,10 @@ export default function App() {
                     </li>
                   ))}
                 </ul>
-              </div>
+              </div> */}
 
               {/* Company */}
-              <div>
+              {/* <div>
                 <h4
                   className="text-white/50 uppercase tracking-widest font-medium mb-5"
                   style={{ fontSize: "0.6rem" }}
@@ -1021,7 +1002,7 @@ export default function App() {
                     ),
                   )}
                 </ul>
-              </div>
+              </div> */}
             </div>
 
             {/* Bottom bar */}
@@ -1030,18 +1011,25 @@ export default function App() {
               style={{ borderColor: "rgba(255,255,255,0.06)" }}
             >
               <p className="text-white/25 text-xs">
-                &copy; {new Date().getFullYear()} Axiom Studio. All rights
-                reserved.
+                &copy; {new Date().getFullYear()} تمامی حقوق برای اَرنیک استدیو محفوظ میباشد
               </p>
               <div className="flex items-center gap-6">
-                {["Privacy Policy", "Terms of Service"].map((link) => (
-                  <a
-                    key={link}
-                    href="#"
-                    className="text-white/25 hover:text-white/60 transition-colors text-xs"
+                {[
+                  { Icon: Instagram, label: "Instagram" },
+                  { Icon: Globe, label: "Website" },
+                  { Icon: Link2, label: "LinkedIn" },
+                ].map(({ Icon, label }) => (
+                  <button
+                    key={label}
+                    aria-label={label}
+                    className="w-9 h-9 rounded-full flex items-center justify-center text-white/40 hover:text-white transition-all duration-200"
+                    style={{
+                      background: "rgba(255,255,255,0.05)",
+                      border: "1px solid rgba(255,255,255,0.08)",
+                    }}
                   >
-                    {link}
-                  </a>
+                    <Icon size={14} />
+                  </button>
                 ))}
               </div>
             </div>
