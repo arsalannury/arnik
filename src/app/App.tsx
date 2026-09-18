@@ -892,14 +892,14 @@ export default function App() {
                   فعالیت مجموعه ما در سال 1404 شروع شد با و با تیم کوچک و صمیمی اداره میشود 
                 </p> */}
 
-                <div className="mt-10 flex items-center gap-4">
+                {/* <div className="mt-10 flex items-center gap-4">
                   <button className="btn-primary text-white text-sm font-semibold px-6 py-3.5 rounded-full">
                     <span>فلسفه ی ما</span>
                   </button>
                   <button className="text-sm text-white/50 hover:text-white transition-colors flex items-center gap-1.5">
                     تیم ما <ArrowRight size={13} />
                   </button>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -926,7 +926,7 @@ export default function App() {
                 className="font-display gradient-text-subtle uppercase tracking-widest font-semibold block mb-4"
                 style={{ fontSize: "0.65rem" }}
               >
-                Client Stories
+                رضایت همراهان
               </span>
               <h2
                 className="font-display font-extrabold text-white leading-tight"
@@ -935,9 +935,9 @@ export default function App() {
                   letterSpacing: "-0.02em",
                 }}
               >
-                Brands that trust us
+                کسب و کار های که به ما اعتماد کردند
                 <br />
-                <span className="gradient-text">keep coming back.</span>
+                <span className="gradient-text">.هیچ وقت پشیمان نمیشوند</span>
               </h2>
             </div>
 
