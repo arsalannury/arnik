@@ -581,7 +581,7 @@ export default function App() {
               {[
                 { value: "10+", label: "تجربه موفق" },
                 // { value: "$40M+", label: "Revenue Generated" },
-                { value: "6 yrs", label: "حضور در مارکت" },
+                { value: "1 سال", label: "حضور در مارکت" },
                 { value: "98%", label: "رضایت مشتری" },
               ].map((stat) => (
                 <div key={stat.label} className="text-center">
@@ -812,9 +812,9 @@ export default function App() {
           style={{ background: "rgba(255,255,255,0.015)" }}
         >
           <div className="max-w-7xl mx-auto">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
+            <div className="grid grid-cols-1 gap-16 items-center">
               {/* Right: stats cards */}
-              <div className="grid grid-cols-2 gap-4">
+              {/* <div className="grid grid-cols-2 gap-4">
                 {[
                   {
                     value: "150+",
@@ -853,7 +853,7 @@ export default function App() {
                     </p>
                   </div>
                 ))}
-              </div>
+              </div> */}
 
               {/* Left: statement */}
               <div>
