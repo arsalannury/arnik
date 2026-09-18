@@ -14,134 +14,7 @@ import {
   Mail,
   Link2,
 } from "lucide-react";
-
-const SERVICES = [
-  {
-    icon: Instagram,
-    number: "01",
-    title: "مدیریت شبکه‌های اجتماعی",
-    desc: "تقویم محتوایی هدفمند، ساخت جامعه مخاطبان و کمپین‌های رشد محور؛ ما دنبال‌کنندگان شما را به مشتریان وفادار تبدیل می‌کنیم",
-    tag: "رشد",
-  },
-  {
-    icon: Globe,
-    number: "02",
-    title: "طراحی و توسعه وب‌سایت",
-    desc: "تجربه‌های دیجیتال دقیق و مدرن، ساخته‌شده با جدیدترین تکنولوژی‌ها؛ وب‌سایت‌هایی که هم زیبا هستند و هم برای تبدیل بازدیدکننده به مشتری طراحی شده‌اند",
-    tag: "دیجیتال",
-  },
-  {
-    icon: Camera,
-    number: "03",
-    title: "تولید محتوا",
-    desc: "تصاویر تأثیرگذار، ویدیوهای حرفه‌ای و داستان‌پردازی خلاقانه؛ هر محتوا فرصتی است برای روایت بهتر برند شما",
-    tag: "خلاقیت",
-  },
-  {
-    icon: Palette,
-    number: "04",
-    title: "طراحی هویت بصری برند",
-    desc: "ساخت سیستم‌های بصری منحصربه‌فرد؛ از لوگو و رنگ‌بندی تا زبان حرکتی برند، برای اینکه کسب‌وکار شما ماندگار و قابل تشخیص باشد",
-    tag: "هویت برند",
-  },
-  {
-    icon: Sparkles,
-    number: "05",
-    title: "راهکارهای خلاقانه مبتنی بر هوش مصنوعی",
-    desc: "استفاده از جدیدترین ابزارهای هوش مصنوعی برای سرعت‌بخشیدن به تولید، شخصی‌سازی محتوا در مقیاس بزرگ و ایجاد مزیت رقابتی برای برند شما",
-    tag: "هوش مصنوعی",
-  },
-];
-
-const PORTFOLIO = [
-  {
-    title: "Instagram Growth Campaign",
-    category: "Social Media",
-    client: "Maison Beauty",
-    result: "+340% engagement",
-    span2: true,
-    gradient:
-      "linear-gradient(135deg, #1a237e 0%, #283593 30%, #4527a0 70%, #311b92 100%)",
-    accent: "#7986cb",
-  },
-  {
-    title: "Brand Launch",
-    category: "Brand Identity",
-    client: "Elevation Labs",
-    result: "$2M launch",
-    span2: false,
-    gradient: "linear-gradient(135deg, #4a148c 0%, #6a1b9a 50%, #7b1fa2 100%)",
-    accent: "#ce93d8",
-  },
-  {
-    title: "Website Redesign",
-    category: "Web Design",
-    client: "Lumina Co.",
-    result: "+180% conversions",
-    span2: false,
-    gradient: "linear-gradient(135deg, #0d47a1 0%, #1565c0 40%, #283593 100%)",
-    accent: "#90caf9",
-  },
-  {
-    title: "AI Content System",
-    category: "AI Solutions",
-    client: "Scale House",
-    result: "10× velocity",
-    span2: true,
-    gradient: "linear-gradient(135deg, #1a237e 0%, #3949ab 40%, #5e35b1 100%)",
-    accent: "#9fa8da",
-  },
-];
-
-const PROCESS = [
-  {
-    number: "۰۱",
-    title: "شناخت",
-    desc: "اول از همه برند، مخاطب و هدف‌هاتون رو می‌شناسیم. بررسی می‌کنیم کجا هستید، چه چیزی نیاز دارید و بهترین مسیر برای رشدتون چیه.",
-  },
-  {
-    number: "۰۲",
-    title: "استراتژی",
-    desc: "بعد از شناخت، یک مسیر مشخص می‌چینیم. اینکه چه محتوایی بسازیم، کجا دیده بشید و چطور بهتر با مخاطبتون ارتباط بگیرید",
-  },
-  {
-    number: "۰۳",
-    title: "ساختن",
-    desc: "اینجا ایده‌ها تبدیل به خروجی واقعی می‌شن؛ از طراحی و محتوا گرفته تا ویدیو، سایت و هر چیزی که برای ساختن یک حضور دیجیتال قوی نیاز دارید",
-  },
-  {
-    number: "۰۴",
-    title: "اجرا و رشد",
-    desc: "کار رو منتشر می‌کنیم، نتیجه‌ها رو بررسی می‌کنیم و مدام بهترش می‌کنیم تا برند شما فقط دیده نشه، بلکه رشد کنه",
-  },
-];
-
-const TESTIMONIALS = [
-  {
-    quote:
-      "کار کردن با تیم ارنیک واقعا خوبه چون آدمای حرفه ای هستن و حرفتو میفهمن و دغدغه کسب و کارت رو دارن و این دلسوزی رو دوس دارم",
-    author: "امیر سالار",
-    role: "بنیانگذار دیزاین مون",
-    initials: "اس",
-    color: "#4a6cf7",
-  },
-  {
-    quote:
-      "من از کار کردن باهاشون لذت میبرم چون انگیزه دارن و میخوان شما رو رشد بدن تا خودشون رشد کنن و همین هم قشنگه",
-    author: "ابراهیم حسین جانی",
-    role: "مدیرعامل مجموعه فرش بهارستان",
-    initials: "اج",
-    color: "#8b5cf6",
-  },
-  {
-    quote:
-      "میدونن کار رو باید از کجا شروع کنن و کجا ببرن مسیر رو و برای مجموعه ی بزرگ و قدیمی مثل ما مهم ترین چیز اصالت توی کار و رفتار حرفه ای  هست که ارنیک بهترین این کاره",
-    author: "سید حامد حسینی",
-    role: "مدیر عامل مرکز تجاری گلستان",
-    initials: "س ح",
-    color: "#4a6cf7",
-  },
-];
+import { PROCESS, SERVICES, TESTIMONIALS } from "./constants/mockData";
 
 const NAV_LINKS = ["خدمات", "رزومه", "مراحل", "درباره ما"];
 
@@ -152,7 +25,6 @@ export default function App() {
     <>
       <div
         className="bg-black text-white min-h-screen overflow-x-hidden"
-        // style={{ fontFamily: "'Figtree', sans-serif" }}
         style={{ fontFamily: "Vazir" }}
       >
         {/* ──────────────────── NAV ──────────────────── */}
@@ -658,49 +530,6 @@ export default function App() {
         >
           <div className="max-w-7xl mx-auto">
             <div className="grid grid-cols-1 gap-16 items-center">
-              {/* Right: stats cards */}
-              {/* <div className="grid grid-cols-2 gap-4">
-                {[
-                  {
-                    value: "150+",
-                    label: "Brands served across 12 countries",
-                    accent: "#4a6cf7",
-                  },
-                  {
-                    value: "400M",
-                    label: "People reached through our content",
-                    accent: "#8b5cf6",
-                  },
-                  {
-                    value: "$40M+",
-                    label: "Direct revenue attributed to our work",
-                    accent: "#8b5cf6",
-                  },
-                  {
-                    value: "98%",
-                    label: "Client retention rate year over year",
-                    accent: "#4a6cf7",
-                  },
-                ].map((stat) => (
-                  <div key={stat.label} className="glass-card rounded-2xl p-7">
-                    <div
-                      className="font-display font-extrabold mb-2 leading-none"
-                      style={{
-                        fontSize: "2.25rem",
-                        color: stat.accent,
-                        letterSpacing: "-0.02em",
-                      }}
-                    >
-                      {stat.value}
-                    </div>
-                    <p className="text-white/40 text-xs leading-relaxed">
-                      {stat.label}
-                    </p>
-                  </div>
-                ))}
-              </div> */}
-
-              {/* Left: statement */}
               <div>
                 <span
                   className="font-display gradient-text-subtle text-right tracking-widest font-semibold block mb-6"
@@ -732,19 +561,6 @@ export default function App() {
                   اونهاست ما معتقدیم در دنیای پر هیاهوی امروز, برای دیده و شنیده
                   شدن باید اقدام کرد تا شانس موفقیت بیشتر و بیشتر شود
                 </p>
-
-                {/* <p className="text-white/35 leading-relaxed text-sm">
-                  فعالیت مجموعه ما در سال 1404 شروع شد با و با تیم کوچک و صمیمی اداره میشود 
-                </p> */}
-
-                {/* <div className="mt-10 flex items-center gap-4">
-                  <button className="btn-primary text-white text-sm font-semibold px-6 py-3.5 rounded-full">
-                    <span>فلسفه ی ما</span>
-                  </button>
-                  <button className="text-sm text-white/50 hover:text-white transition-colors flex items-center gap-1.5">
-                    تیم ما <ArrowRight size={13} />
-                  </button>
-                </div> */}
               </div>
             </div>
           </div>
@@ -914,10 +730,6 @@ export default function App() {
                     <span>ارسال</span>
                   </button>
                 </div>
-
-                {/* <p className="text-white/25 text-xs">
-                  No commitment required. We respond within 24 hours.
-                </p> */}
               </div>
             </div>
           </div>
@@ -929,89 +741,14 @@ export default function App() {
           style={{ borderColor: "rgba(255,255,255,0.07)" }}
         >
           <div className="max-w-7xl mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-8">
-              {/* Brand */}
-              <div className="md:col-span-12">
-                {/* <div className="flex items-center gap-2.5 mb-4">
-                  <div className="btn-primary w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <span>
-                      <Zap size={15} className="text-white" />
-                    </span>
-                  </div>
-                  <span
-                    className="font-display text-white font-semibold tracking-wider"
-                    style={{ fontSize: "0.8rem", letterSpacing: "0.15em" }}
-                  >
-                    اَرنیک
-                  </span>
-                </div> */}
-                {/* <p className="text-white/35 text-sm leading-relaxed max-w-xs">
-                  Premium creative studio helping ambitious brands grow through
-                  strategy, design, and AI-powered execution.
-                </p> */}
-                {/* Socials */}
-              </div>
-
-              {/* Services */}
-              {/* <div>
-                <h4
-                  className="text-white/50 uppercase tracking-widest font-medium mb-5"
-                  style={{ fontSize: "0.6rem" }}
-                >
-                  Services
-                </h4>
-                <ul className="space-y-3">
-                  {[
-                    "Social Media",
-                    "Web Design",
-                    "Content Production",
-                    "Brand Identity",
-                    "AI Solutions",
-                  ].map((s) => (
-                    <li key={s}>
-                      <a
-                        href="#services"
-                        className="text-white/40 hover:text-white transition-colors text-sm"
-                      >
-                        {s}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div> */}
-
-              {/* Company */}
-              {/* <div>
-                <h4
-                  className="text-white/50 uppercase tracking-widest font-medium mb-5"
-                  style={{ fontSize: "0.6rem" }}
-                >
-                  Company
-                </h4>
-                <ul className="space-y-3">
-                  {["About", "Portfolio", "Process", "Contact", "Careers"].map(
-                    (s) => (
-                      <li key={s}>
-                        <a
-                          href={`#${s.toLowerCase()}`}
-                          className="text-white/40 hover:text-white transition-colors text-sm"
-                        >
-                          {s}
-                        </a>
-                      </li>
-                    ),
-                  )}
-                </ul>
-              </div> */}
-            </div>
-
             {/* Bottom bar */}
             <div
               className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 border-t"
               style={{ borderColor: "rgba(255,255,255,0.06)" }}
             >
               <p className="text-white/25 text-xs">
-                &copy; {new Date().getFullYear()} تمامی حقوق برای اَرنیک استدیو محفوظ میباشد
+                &copy; {new Date().getFullYear()} تمامی حقوق برای اَرنیک استدیو
+                محفوظ میباشد
               </p>
               <div className="flex items-center gap-6">
                 {[
