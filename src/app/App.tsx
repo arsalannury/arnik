@@ -882,24 +882,22 @@ export default function App() {
                   className="text-white/45 leading-relaxed mb-6 text-right"
                   style={{ fontSize: "1rem" }}
                 >
-                  Axiom is a creative studio obsessed with one thing: results.
-                  We combine the strategic rigour of a consultancy with the
-                  craft of a design-led agency — and the velocity of AI-powered
-                  tooling.
+                  اَرنیک یک استدیو خلاقیت نتیجه محوره که هدف اصلیش کمک به کسب و
+                  کار های خورد و بزرگ در راستای بهبود وضعیت کاری و دیده شدن
+                  اونهاست ما معتقدیم در دنیای پر هیاهوی امروز, برای دیده و شنیده
+                  شدن باید اقدام کرد تا شانس موفقیت بیشتر و بیشتر شود
                 </p>
-                <p className="text-white/35 leading-relaxed text-sm">
-                  Founded in 2018, we have grown brands across 12 countries,
-                  produced content seen by over 400 million people, and helped
-                  founders turn creative investment into compounding commercial
-                  returns.
-                </p>
+
+                {/* <p className="text-white/35 leading-relaxed text-sm">
+                  فعالیت مجموعه ما در سال 1404 شروع شد با و با تیم کوچک و صمیمی اداره میشود 
+                </p> */}
 
                 <div className="mt-10 flex items-center gap-4">
                   <button className="btn-primary text-white text-sm font-semibold px-6 py-3.5 rounded-full">
-                    <span>Our Philosophy</span>
+                    <span>فلسفه ی ما</span>
                   </button>
                   <button className="text-sm text-white/50 hover:text-white transition-colors flex items-center gap-1.5">
-                    Meet the team <ArrowRight size={13} />
+                    تیم ما <ArrowRight size={13} />
                   </button>
                 </div>
               </div>
