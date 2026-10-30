@@ -6,7 +6,7 @@ import Services from "./components/Services";
 import Process from "./components/Process";
 import Testimonials from "./components/Testimonials";
 import FinalCta from "./components/FinalCta";
-import { Footer } from "react-day-picker";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
