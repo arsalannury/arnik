@@ -29,7 +29,7 @@ const About = () => {
                   accent: "#8b5cf6",
                 },
                 {
-                  value: "98%",
+                  value: "۹۸%",
                   label: "Client retention rate year over year",
                   accent: "#4a6cf7",
                 },

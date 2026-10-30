@@ -3,7 +3,10 @@ import { ArrowRight } from "lucide-react";
 const Hero = () => {
   return (
     <>
-      <section id="درباره ما" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
+      <section
+        id="درباره ما"
+        className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16"
+      >
         {/* Dot grid */}
         <div className="dot-grid absolute inset-0 pointer-events-none" />
 
@@ -190,10 +193,9 @@ const Hero = () => {
           {/* Stats */}
           <div className="mt-20 flex flex-wrap items-center justify-center gap-8 md:gap-16">
             {[
-              { value: "10+", label: "تجربه موفق" },
-              // { value: "$40M+", label: "Revenue Generated" },
-              { value: "6 yrs", label: "حضور در مارکت" },
-              { value: "98%", label: "رضایت مشتری" },
+              { value: "۵+", label: "تجربه موفق" },
+              { value: "۲ سال", label: "حضور در مارکت" },
+              { value: "۹۸%", label: "رضایت مشتری" },
             ].map((stat) => (
               <div key={stat.label} className="text-center">
                 <div

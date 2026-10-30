@@ -1,4 +1,4 @@
-import { Zap, Link2, Globe,Instagram } from "lucide-react";
+import { Zap, Link2, Globe, Instagram } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -109,11 +109,14 @@ const Footer = () => {
             style={{ borderColor: "rgba(255,255,255,0.06)" }}
           >
             <p className="text-white/25 text-xs">
-              &copy; {new Date().getFullYear()} Axiom Studio. All rights
-              reserved.
+              {new Date().toLocaleDateString("fa-IR", {
+                year: "numeric",
+                calendar: "persian",
+              })}{" "}
+              تمامی حقوق برای استدیو خلاقیت ارنیک محفوظ میباشد
             </p>
             <div className="flex items-center gap-6">
-              {["Privacy Policy", "Terms of Service"].map((link) => (
+              {["قوانین و محدودیت ها"].map((link) => (
                 <a
                   key={link}
                   href="#"
