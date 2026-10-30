@@ -4,7 +4,7 @@ import { SERVICES } from "../constants/content";
 const Services = () => {
   return (
     <>
-      <section id="services" className="py-32 px-6 md:px-10">
+      <section id="خدمات" className="py-32 px-6 md:px-10">
         <div className="max-w-7xl mx-auto">
           {/* Section header */}
           <div className="mb-16 flex flex-col md:flex-row md:items-end md:justify-between gap-6">

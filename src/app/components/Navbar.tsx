@@ -55,7 +55,7 @@ const Navbar = () => {
               ارتباط با ما
             </a>
             <button className="btn-primary text-white text-sm font-semibold px-5 py-2.5 rounded-full">
-              <span>درخواست پروژه</span>
+              <span>ورود / ثبت نام</span>
             </button>
           </div>
 
@@ -83,7 +83,7 @@ const Navbar = () => {
               </a>
             ))}
             <button className="btn-primary text-white text-sm font-semibold px-5 py-3 rounded-full mt-1 text-center">
-              <span>درخواست پروژه</span>
+              <span>ورود / ثبت نام</span>
             </button>
           </div>
         )}

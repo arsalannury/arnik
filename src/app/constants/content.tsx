@@ -104,25 +104,25 @@ export const PROCESS = [
 export const TESTIMONIALS = [
   {
     quote:
-      "Working with this studio transformed our digital presence entirely. Instagram became our number one revenue channel within just six months of working together.",
-    author: "Sophia Chen",
-    role: "Founder, Maison Studio",
-    initials: "SC",
+      "همکاری با استدیو ارنیک خیلی تجربه خوبیه چون بر اساس برنامه و استراتژی عمل میکنن و بدون حاشیه به کار های که دارن میرسن و یه تجربه بدون دردسر بدست میارین در کنار رفتاری صمیمی و دوستانه",
+    author: "امیر سالار",
+    role: "موسس دیزاین مون",
+    initials: "اس",
     color: "#4a6cf7",
   },
   {
     quote:
-      "The rebrand felt inevitable — perfectly sharp and commercially grounded. Sales jumped 60% in the quarter after launch. This team understands brand at a real business level.",
-    author: "Marcus Reid",
-    role: "CEO, Elevation Labs",
-    initials: "MR",
+      "تیم ارنیک همکاری گروهی قشنگ و هماهنگی دارن و به قول های که میدن عمل میکنن همین هم باعث میشه کار کردن باهاشون بتونه ادامه دار باشه. یه خوبی دیگه هم اینکه رویا فروشی نمیکنن",
+    author: "احسان حسین جانی",
+    role: "مدیر کل گالری فرش بهارستان",
+    initials: "اج",
     color: "#8b5cf6",
   },
   {
     quote:
-      "Their AI content system produces in an afternoon what used to take our team a full week. It has become a genuine competitive moat we could not have built alone.",
-    author: "Priya Nair",
-    role: "CMO, Luminara Wellness",
+      "ما به راحتی خدمات ادمینی و پشتیبانی سایتمون رو به این استدیو سپردیم و خداروشکر با خدماتی که ارائه میدن روند خوبی رو برای رشد پیج و ورودی سایتمون داریم تجربه میکنیم و نقطه مثبت عمل به تعهداتشونه",
+    author: "سید حامد حسینی",
+    role: "مدیر عامل مرکز تجاری گلستان",
     initials: "PN",
     color: "#4a6cf7",
   },

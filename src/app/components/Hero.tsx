@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react";
 const Hero = () => {
   return (
     <>
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
+      <section id="درباره ما" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
         {/* Dot grid */}
         <div className="dot-grid absolute inset-0 pointer-events-none" />
 
@@ -158,7 +158,7 @@ const Hero = () => {
             style={{
               fontSize: "clamp(2.75rem, 7vw, 6rem)",
               letterSpacing: "-0.025em",
-              lineHeight: 1.04,
+              lineHeight: 1.5,
             }}
           >
             ایده هات رو به

@@ -4,7 +4,7 @@ const Process = () => {
   return (
     <>
       <section
-        id="process"
+        id="مراحل"
         className="py-32 px-6 md:px-10 relative overflow-hidden"
       >
         <div

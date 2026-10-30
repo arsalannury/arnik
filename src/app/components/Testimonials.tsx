@@ -4,7 +4,10 @@ import { TESTIMONIALS } from "../constants/content";
 const Testimonials = () => {
   return (
     <>
-      <section className="py-32 px-6 md:px-10 relative overflow-hidden">
+      <section
+        id="رزومه"
+        className="py-32 px-6 md:px-10 relative overflow-hidden"
+      >
         <div
           className="orb absolute"
           style={{
@@ -24,7 +27,7 @@ const Testimonials = () => {
               className="font-display gradient-text-subtle uppercase tracking-widest font-semibold block mb-4"
               style={{ fontSize: "0.65rem" }}
             >
-              Client Stories
+              از دیدگاه شما
             </span>
             <h2
               className="font-display font-extrabold text-white leading-tight"
@@ -33,9 +36,9 @@ const Testimonials = () => {
                 letterSpacing: "-0.02em",
               }}
             >
-              Brands that trust us
+              نتیجه اعتماد به ما
               <br />
-              <span className="gradient-text">keep coming back.</span>
+              <span className="gradient-text">همکاری بلند مدت است</span>
             </h2>
           </div>
 
@@ -61,12 +64,18 @@ const Testimonials = () => {
                   &ldquo;
                 </div>
 
-                <p className="text-white/60 leading-relaxed mb-8 text-sm">
+                <p className="text-white/60 leading-relaxed mb-8 text-sm text-right">
                   {t.quote}
                 </p>
 
                 {/* Author */}
-                <div className="flex items-center gap-3">
+                <div className="flex items-center gap-3 justify-end">
+                  <div>
+                    <div className="text-white font-semibold text-sm text-right">
+                      {t.author}
+                    </div>
+                    <div className="text-white/35 text-xs">{t.role}</div>
+                  </div>
                   <div
                     className="w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 font-display font-bold text-white"
                     style={{
@@ -75,12 +84,6 @@ const Testimonials = () => {
                     }}
                   >
                     {t.initials}
-                  </div>
-                  <div>
-                    <div className="text-white font-semibold text-sm">
-                      {t.author}
-                    </div>
-                    <div className="text-white/35 text-xs">{t.role}</div>
                   </div>
                 </div>
               </div>
