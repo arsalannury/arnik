@@ -3,7 +3,10 @@ import { NAV_LINKS } from "../constants/content";
 import { Menu } from "lucide-react";
 import { useState } from "react";
 import { X } from "lucide-react";
-import LOGO_WHITE from "../../assets/images/logo-white.webp";
+const logoWhite = new URL(
+  "../../assets/images/logo-white.webp",
+  import.meta.url,
+).href;
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -20,8 +23,8 @@ const Navbar = () => {
         }}
       >
         <div className="max-w-7xl mx-auto flex items-center justify-between h-16">
-                  {/* Logo */}
-                  <img src={LOGO_WHITE} alt="logo-main" className="w-32 h-25" />
+          {/* Logo */}
+          <img src={logoWhite} alt="logo-main" className="w-32 h-25" />
           {/* <div className="flex items-center gap-2.5">
             <div className="btn-primary w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0">
               <span>
