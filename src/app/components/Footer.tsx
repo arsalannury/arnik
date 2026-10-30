@@ -8,8 +8,8 @@ const Footer = () => {
         style={{ borderColor: "rgba(255,255,255,0.07)" }}
       >
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
-            {/* Brand */}
+          {/* <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+            
             <div className="md:col-span-2">
               <div className="flex items-center gap-2.5 mb-4">
                 <div className="btn-primary w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0">
@@ -21,14 +21,14 @@ const Footer = () => {
                   className="font-display text-white font-semibold tracking-wider"
                   style={{ fontSize: "0.8rem", letterSpacing: "0.15em" }}
                 >
-                  AXIOM
+                  ارنیک
                 </span>
               </div>
               <p className="text-white/35 text-sm leading-relaxed max-w-xs">
                 Premium creative studio helping ambitious brands grow through
                 strategy, design, and AI-powered execution.
               </p>
-              {/* Socials */}
+             
               <div className="flex items-center gap-4 mt-6">
                 {[
                   { Icon: Instagram, label: "Instagram" },
@@ -50,7 +50,7 @@ const Footer = () => {
               </div>
             </div>
 
-            {/* Services */}
+           
             <div>
               <h4
                 className="text-white/50 uppercase tracking-widest font-medium mb-5"
@@ -78,7 +78,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            {/* Company */}
+            
             <div>
               <h4
                 className="text-white/50 uppercase tracking-widest font-medium mb-5"
@@ -101,7 +101,7 @@ const Footer = () => {
                 )}
               </ul>
             </div>
-          </div>
+          </div> */}
 
           {/* Bottom bar */}
           <div
