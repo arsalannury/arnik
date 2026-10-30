@@ -35,7 +35,7 @@ const FinalCta = () => {
                 className="font-display gradient-text-subtle uppercase tracking-widest font-semibold block mb-6"
                 style={{ fontSize: "0.65rem" }}
               >
-                Ready to Begin
+                آماده همکاری جدید هستی؟
               </span>
               <h2
                 className="font-display font-extrabold text-white leading-tight mb-6"
@@ -44,16 +44,15 @@ const FinalCta = () => {
                   letterSpacing: "-0.025em",
                 }}
               >
-                Ready to create something
+                ما برای کمک به رشد کسب و کار شما
                 <br />
-                <span className="gradient-text">extraordinary?</span>
+                <span className="gradient-text">هیجان زده ایم</span>
               </h2>
               <p
                 className="text-white/45 max-w-md mx-auto mb-10 leading-relaxed"
                 style={{ fontSize: "1rem" }}
               >
-                Tell us about your project and we will get back within 24 hours.
-                No fluff, no agency theatre — just a real conversation.
+                از کسب و کار خودتون به ما بگید و نیازتون رو با ما در میون بزارید. کمتر از ۲۴ ساعت بعد با شما ارتباط میگیریم
               </p>
 
               {/* Email row */}
@@ -73,12 +72,12 @@ const FinalCta = () => {
                   />
                 </div>
                 <button className="btn-primary text-white font-semibold px-7 py-4 rounded-full text-sm whitespace-nowrap w-full sm:w-auto">
-                  <span>Get Started</span>
+                  <span>! شروع کن</span>
                 </button>
               </div>
 
               <p className="text-white/25 text-xs">
-                No commitment required. We respond within 24 hours.
+               بهترین نتیجه رشد شما، کسب اعتبار ماست
               </p>
             </div>
           </div>
