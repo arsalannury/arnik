@@ -1,4 +1,7 @@
-import { Mail } from "lucide-react";
+const profile = new URL(
+  "../../assets/images/profile.jpg",
+  import.meta.url,
+).href;
 
 const FinalCta = () => {
   return (
@@ -52,11 +55,12 @@ const FinalCta = () => {
                 className="text-white/45 max-w-md mx-auto mb-10 leading-relaxed"
                 style={{ fontSize: "1rem" }}
               >
-                از کسب و کار خودتون به ما بگید و نیازتون رو با ما در میون بزارید. کمتر از ۲۴ ساعت بعد با شما ارتباط میگیریم
+                به پیج اینستاگرامی ما پیام بدین و نیازتون رو با ما در میون
+                بزارید. کمتر از ۲۴ ساعت بعد با شما ارتباط میگیریم
               </p>
 
               {/* Email row */}
-              <div className="flex flex-col sm:flex-row items-center justify-center gap-3 max-w-md mx-auto mb-8">
+              {/* <div className="flex flex-col sm:flex-row items-center justify-center gap-3 max-w-md mx-auto mb-8">
                 <div
                   className="flex-1 w-full flex items-center gap-3 px-5 py-4 rounded-full"
                   style={{
@@ -74,10 +78,15 @@ const FinalCta = () => {
                 <button className="btn-primary text-white font-semibold px-7 py-4 rounded-full text-sm whitespace-nowrap w-full sm:w-auto">
                   <span>! شروع کن</span>
                 </button>
+              </div> */}
+
+              <div className="flex items-center justify-center gap-2 mb-5">
+                <img src={profile} alt="profile-picture" className="w-10 h-10 rounded-full" />
+                <p className="">nikzad_sanae</p>
               </div>
 
               <p className="text-white/25 text-xs">
-               بهترین نتیجه رشد شما، کسب اعتبار ماست
+                بهترین نتیجه رشد شما، کسب اعتبار ماست
               </p>
             </div>
           </div>
