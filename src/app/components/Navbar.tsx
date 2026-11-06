@@ -59,9 +59,9 @@ const Navbar = () => {
             >
               ارتباط با ما
             </a>
-            <button className="btn-primary text-white text-sm font-semibold px-5 py-2.5 rounded-full">
+            {/* <button className="btn-primary text-white text-sm font-semibold px-5 py-2.5 rounded-full">
               <span>ورود / ثبت نام</span>
-            </button>
+            </button> */}
           </div>
 
           {/* Mobile toggle */}

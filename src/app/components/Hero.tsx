@@ -182,12 +182,12 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <button className="btn-primary text-white font-semibold px-8 py-4 rounded-full flex items-center gap-2 text-sm tracking-wide">
               <span className="flex items-center gap-2">
-                درخواست پروژه <ArrowRight size={15} />
+               نمونه کار ها<ArrowRight size={15} />
               </span>
             </button>
-            <button className="glass text-white/70 hover:text-white font-medium px-8 py-4 rounded-full text-sm tracking-wide transition-all duration-300 hover:border-white/20 hover:bg-white/8">
+            {/* <button className="glass text-white/70 hover:text-white font-medium px-8 py-4 rounded-full text-sm tracking-wide transition-all duration-300 hover:border-white/20 hover:bg-white/8">
               نمونه کار ها
-            </button>
+            </button> */}
           </div>
 
           {/* Stats */}

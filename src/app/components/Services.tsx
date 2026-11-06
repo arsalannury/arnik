@@ -8,7 +8,7 @@ const Services = () => {
         <div className="max-w-7xl mx-auto">
           {/* Section header */}
           <div className="mb-16 flex flex-col md:flex-row md:items-end md:justify-between gap-6">
-            <p className="text-white/40 max-w-sm leading-relaxed text-sm md:text-right">
+            <p className="text-white/40 max-w-sm leading-relaxed text-sm text-right">
               از هویت برند تا محتوای هوشمند؛ ما تمام مسیر خلاقیت دیجیتال شما را
               می‌سازیم تا کسب‌وکارتان رشد کند
             </p>
